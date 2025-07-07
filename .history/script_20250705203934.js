@@ -1,0 +1,1 @@
+let javahideicon = document.querySelector

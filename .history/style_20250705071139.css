@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+img{
+    max-width: 100%;
+}
+.toppag{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.toppag>a{
+    color: white;
+    text-decoration: underline;
+}
+.topmain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border: 1px solid rgb(150, 148, 148);
+    padding: 1.2rem 2rem;
+}
+.topmain a{
+    color: black;
+} 
+.topa:hover{
+    border-bottom: 2px solid black;
+} 
+.topmain>nav{
+    display: flex;  
+    gap: 2rem; 
+}
+.shoptools{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search>input{
+    width: 13rem;
+    padding: 0.3rem;
+    background-color: rgb(223, 221, 221);
+}
+.imagebutton{
+    background-color: white;
+    border: none;
+}
+.clickingproduct{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    padding-block: 2rem;
+    padding-inline: 3rem 1rem;
+    bord:2px solid blue;
+}
+.genderfashion{
+  display: flex;
+  align-items: center;
+}
+.letitsmall{
+    width: 1rem;
+}

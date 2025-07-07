@@ -1,0 +1,343 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+img{
+    max-width: 100%;
+}
+.toppag{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    font-size: 14px;
+    z-index: 2;
+}
+.toppag>a{
+    color: white;
+    text-decoration: underline;
+}
+.topmain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border: 1px solid rgb(150, 148, 148);
+    padding: 1.2rem 2rem;
+    position: fixed;
+    width: 100vw;
+    top: 2.7rem;
+    background-color: white;
+    z-index: 1;
+}
+.topmain a{
+    color: black;
+    @media (max-width:880px) {
+        display: none;
+    }
+} 
+.topa:hover{
+    border-bottom: 2px solid black;
+} 
+.topmain>nav{
+    display: flex;  
+    gap: 2rem; 
+}
+.shoptools{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.search>input{
+    width: 13rem;
+    padding: 0.3rem;
+    background-color: #F5F5F5;
+    border: none;
+    @media (max-width:600px) {
+        display: none;
+    }
+}
+.ina:focus{
+    outline: none;
+   
+}
+.imagebutton{
+    border: none;
+    width: 20px;
+}
+.firstsection{
+    display: flex;
+    margin-top: 7.5rem;
+    @media (max-width:999px) {
+        flex-direction: column;
+
+    }
+    @media (max-width:1180px) {
+        margin-top: 5rem;
+    }
+}
+.clickingproduct{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    padding-block: 2rem;
+    padding-inline: 3rem 5rem;
+    border-right: 0.6px solid rgb(101, 100, 100);
+    @media (max-width:1180px) {
+        padding-left: 5px;
+        border-right: none;
+    }
+    
+}
+.clickingproduct p{
+    opacity: 0.8;
+}
+.displaynone{
+    @media (max-width:1180px) {
+        display: none;
+    }
+}
+.menulist{
+    display: none;
+    @media (max-width:1180px) {
+        display: block;
+        max-width: 1rem;
+    }
+}
+.genderfashion{
+  display: flex;
+  align-items: center;
+}
+.letitsmall{
+    width: 1rem;
+}
+.introduction{
+    padding: 3rem;
+    color: white;
+    @media (max-width:1020px) {
+        padding: 2rem 0rem;
+    }
+}
+.backbackground{ 
+    display: flex;
+    background-color: black;
+    padding: 3rem 4rem;
+    @media (max-width:932px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+@media (max-width:933px) {
+    .backbackground p{
+        text-align: center;
+    }
+    .backbackground h1{
+        text-align: center;
+    }
+    .shopapple{
+        width: 6.2rem;
+        margin-inline: auto;
+      
+    }
+    .app{
+        margin-inline: auto;
+        width: 2.6rem;
+        padding-bottom: 0.8rem;
+    }
+}
+.backbackground h1{
+    font-size: 3rem;
+    padding-block: 0.5rem;
+}
+.backbackground p{
+    font-size: 1.5rem;
+} 
+.linera{
+    filter: invert(1);
+}
+.shopapple{
+    display: flex;
+    align-items:center;
+    gap: 5px;
+}
+.shopapple img{
+    margin-top: 0.8rem;
+}
+.shopapple a{
+    color: white;
+    text-decoration: underline;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+.phonediv{
+    max-width: 25rem;
+}
+.phonediv img{
+    width: 100%;
+}
+.menushow{
+    background-color: aqua;
+    position: fixed;
+    top: 7rem;
+    width: 20rem;
+    padding: 0.7rem;
+    line-height: 2rem;
+    display: none;
+}
+.menunav{
+    display: flex;
+    flex-direction: column;
+}
+.hideicon{
+    display: none;
+}
+/* this is the second section style */
+
+.redpag{
+    border-left: 1rem solid red;
+    padding: 0.4rem;
+    color: red;
+}
+.secondsection{
+    padding: 2.5rem;
+}
+.itempad{
+    max-width:190px ;
+    margin-top: 2rem;
+    margin-inline: auto;
+    /* height: 200px; */
+    padding: 1rem 2rem;
+    /* background-color: blue; */
+
+   
+}
+.chair{
+    padding: 0rem 2rem;
+}
+.keyboarda{
+    margin-top: 4rem;
+    margin-bottom: 1.7rem;
+}
+.itempad>.img{
+    width: 100%;
+    
+}
+.goods{
+    position: relative;
+    max-width: 12rem;
+    flex-shrink: 0;
+    background-color: #F5F5F5;
+}
+.goods .ht{
+    width: 0.8rem;
+    display: block;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+}
+.goods .ey{
+    width: 0.8rem;
+    display: block;
+    position: absolute;
+    right: 0.5rem;
+    top: 1.3rem;
+}
+.redper{
+    background-color: red;
+    color: white;
+    max-width: 2rem;
+    font-size: 0.6rem;
+    position: absolute;
+    top:0.6rem ;
+}
+.marketa{
+    display: flex;
+    gap: 1.5rem;
+    padding-block: 2.5rem;
+    /* background-color: blue; */ 
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.headingbut{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.controla img{
+    width: 1.5rem;
+}
+.slashb{
+    text-decoration: line-through;
+    font-size: 0.8rem;
+    color: rgba(50, 50, 50, 0.495);
+}
+.slasha{
+    font-size: 0.8rem;
+    padding-block: 0.8rem;
+    color: red;
+}
+.endlink{
+    padding: 0.6rem;
+    background-color: red;
+    color: white;
+    border-radius: 0.3rem;
+    margin-inline: auto;
+    text-align: center;
+    width: 10rem;
+    display: block;
+    margin-top: 3rem;
+}
+.divwhite{
+    background-color: white;
+}
+
+/* third section styles */
+.thirdsection{
+    padding: 2.5rem;
+}
+.divcat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    width: 170px;
+    padding: 1rem;
+}
+.redbag{
+    background-color: red;
+    color: white;
+}
+.maincat{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.imgcat{
+    width: 5rem;
+}
+.headingbut h2{
+    font-size: 22px;
+}
+
+

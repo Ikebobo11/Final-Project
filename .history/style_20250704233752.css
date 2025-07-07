@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.toppag{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1.2rem;
+}
+.toppag>a{
+    color: white;
+    text-decoration: underline;
+}
+.topmain{
+    
+}
+.imagebutton{
+    background-color: white;
+    border: none;
+}

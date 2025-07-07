@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.toppag{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1.2rem;
+}
+.toppag>a{
+    color: white;
+    text-decoration: underline;
+}
+.topmain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topmain a{
+    color: black;
+   
+.topmain nav{
+     border: 1px solid rgb(150, 148, 148);
+}
+}
+.shoptools{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search>input{
+    width: 13rem;
+    padding: 0.3rem;
+}
+.imagebutton{
+    background-color: white;
+    border: none;
+}
