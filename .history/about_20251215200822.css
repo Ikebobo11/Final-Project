@@ -228,6 +228,7 @@ img{
 .onesec{
     display: flex;
     max-width: 1120px;
+    or
     padding: 2rem;
     margin-inline: auto;
     /* background-color: blue; */
@@ -239,12 +240,10 @@ img{
 }
 .pagd{
     max-width: 500px;
-    order: 2;
 }
 .womendiv{
     max-width: 500px;
     height: 500px;
-    order: 1;
 }
 .womendiv img{
     width: 100%;

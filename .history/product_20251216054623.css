@@ -389,14 +389,13 @@ img{
 }
 .gapmain{
     display: flex;
-    gap: 1.5rem;
-    /* flex-wrap: wrap;
+    /* gap: 1.5rem;
+    flex-wrap: wrap;
     max-width: 970px;
     margin-inline: auto; */
     overflow: scroll;
     border: 3px solid gray;
-    scrollbar-width: none;
-    border-radius: 5px;
+    scrollbar-width: ;
 }
 .reshape{
     width: 224px;

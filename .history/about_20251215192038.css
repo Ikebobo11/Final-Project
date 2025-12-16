@@ -239,16 +239,12 @@ img{
 }
 .pagd{
     max-width: 500px;
-    order: 2;
 }
 .womendiv{
     max-width: 500px;
-    height: 500px;
-    order: 1;
 }
 .womendiv img{
     width: 100%;
-    height: 100%;
 }
 .pmag{
     padding-block: 1rem;

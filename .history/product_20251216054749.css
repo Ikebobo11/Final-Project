@@ -396,7 +396,7 @@ img{
     overflow: scroll;
     border: 3px solid gray;
     scrollbar-width: none;
-    border-radius: 5px;
+    border-radius: 5;
 }
 .reshape{
     width: 224px;
